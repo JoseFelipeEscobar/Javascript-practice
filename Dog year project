@@ -1,0 +1,21 @@
+//project Dog years
+//this variable store my age 
+let myAge=22;
+//this stament
+let earlyYears=2;
+//this line calculate the agae in dog years for the 2 first years
+earlyYears*=10.5;
+//this line of code calculate the 2 first year 
+laterYears=myAge-2;
+// this line calculate the value of the dog years after the 2 firs years of life
+laterYears*=4;
+console.log(earlyYears,laterYears);
+//this lie of code add calculate your age in dog years that is the add of earlyYears and LaterYears 
+let myAgeInDogYears=earlyYears+laterYears;//this vriable is the age in Dog years
+//this variable store my name
+let myName='Jose Felipe';
+//this line convert my name to lower case
+myName=myName.toLowerCase();
+
+console.log(`My Name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years`);
+
