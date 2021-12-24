@@ -2,7 +2,7 @@ let username='';
 
 username ? console.log(`Hello, ${username}!`): console.log('Hello!');
 
-let userQuestion ='Will i become a werewolf tonight?'
+let userQuestion ='Will i become a javascript senior developer this year ?'
 
 console.log(`The user asked: ${userQuestion}`);
 let randomNumber=(Math.floor(Math.random()*8))
